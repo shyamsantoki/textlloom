@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "text_lloom"
+version = "0.7.4"
+description = "Concept Induction to analyze unstructured text"
+authors = ["Michelle Lam <mlam4@cs.stanford.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+hdbscan = "^0.8.33"
+openai = "^1.23.1"
+langchain = "^0.1.5"
+anywidget = "^0.9.7"
+pathos = "^0.3.0"
+ipywidgets = "^8.1.2"
+tiktoken = "^0.7.0"
+nltk = "^3.8.1"
+jupyterlab_widgets = "^3.0.10"
+yaspin = "^3.0.2"
+umap-learn = "^0.5.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

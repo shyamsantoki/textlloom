@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: text_lloom
+Version: 0.7.4
+Summary: Concept Induction to analyze unstructured text
+Author: Michelle Lam
+Author-email: mlam4@cs.stanford.edu
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: anywidget (>=0.9.7,<0.10.0)
+Requires-Dist: hdbscan (>=0.8.33,<0.9.0)
+Requires-Dist: ipywidgets (>=8.1.2,<9.0.0)
+Requires-Dist: jupyterlab_widgets (>=3.0.10,<4.0.0)
+Requires-Dist: langchain (>=0.1.5,<0.2.0)
+Requires-Dist: nltk (>=3.8.1,<4.0.0)
+Requires-Dist: openai (>=1.23.1,<2.0.0)
+Requires-Dist: pathos (>=0.3.0,<0.4.0)
+Requires-Dist: tiktoken (>=0.7.0,<0.8.0)
+Requires-Dist: umap-learn (>=0.5.5,<0.6.0)
+Requires-Dist: yaspin (>=3.0.2,<4.0.0)
+Description-Content-Type: text/markdown
+
+Directory for the LLooM python package
+
