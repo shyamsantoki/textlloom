@@ -89,7 +89,7 @@ EMBED_MAX_BATCH_SIZE = {
 
 def get_token_estimate(text, model_name):
     # Fetch the number of tokens used by a prompt
-    encoding = tiktoken.encoding_for_model(model_name)
+    encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
     tokens = encoding.encode(text)
     num_tokens = len(tokens)
     return num_tokens
@@ -103,7 +103,7 @@ def get_token_estimate_list(text_list, model_name):
 
 def truncate_text_tokens(text, model_name, max_tokens):
     # Truncate a prompt to fit within a maximum number of tokens
-    encoding = tiktoken.encoding_for_model(model_name)
+    encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
     tokens = encoding.encode(text)
     n_tokens = len(tokens)
     if max_tokens is not None and n_tokens > max_tokens:
